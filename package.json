@@ -2,7 +2,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "setup-admin": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup-admin.ps1"
+    "setup-admin": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup-admin.ps1",
+    "setup-admin:mac": "bash scripts/setup-admin.sh"
   },
   "dependencies": {
     "firebase-admin": "^13.5.0"
